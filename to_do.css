@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    height: 100vh;
+    background: linear-gradient(45deg,rgb(67, 59, 59),rgb(173, 92, 92));
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue; 
+    margin: 50px;
+
+}
+
+#task-container {
+    margin-bottom: 10px;
+}
+
+#task-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 5px;
+}
+.ul1{
+    color: aliceblue;
+}
+.inp1{
+    background-color: rgb(89, 88, 88);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.but1{
+    margin-left: 10px;
+}
+.task-item input[type="checkbox"] {
+    margin-right: 10px;
+}
